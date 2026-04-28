@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content:space-between;
+    max-width: 100rem;
+    width: 90%;
+    margin: 5px auto 0 auto;
+    padding: 25px 25px 18px 25px;
+    align-items: center;
+}
+
+#logo {
+    width: 150px;
+    height: 90px;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 2rem;
+    font-weight: 900;
+}
+
+.header nav ul li a {
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.header nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: #F30C0B;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    color: #F30C0B;
+}
+
+.header nav ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+@media screen and (max-width: 832px) {
+    .header{
+        flex-direction: column;
+    }
+
+    .header nav ul {
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+}

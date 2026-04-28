@@ -4,6 +4,7 @@
 @import "./about.css";
 @import "./media.css";
 @import "./footer.css";
+@import "./contact.css";
 
 html {
     overflow-x: hidden;
