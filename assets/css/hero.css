@@ -1,5 +1,5 @@
 .hero {
-    width: 99.2vw;
+    width: 100%;
     height: calc(100vh - 130.23px);
     background-image: url("./../img/back_hero.png");
     background-size: cover;

@@ -5,6 +5,10 @@
 @import "./media.css";
 @import "./footer.css";
 
+html {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +27,6 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    overflow: visible;
 }
 
 
